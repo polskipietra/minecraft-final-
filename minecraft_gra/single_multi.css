@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav,
+footer {
+	background-image: url(./dirt.jpg);
+
+	height: 20vh;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+}
+h1 {
+	color: white;
+	font-family: Minecraft;
+	font-size: 36px;
+}
+
+main {
+	background-color: rgb(17, 11, 11);
+	height: 100vh;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+button {
+	position: relative;
+	display: block;
+	background-color: #a4a4a4;
+	padding: 15px;
+	width: 700px;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+.looks {
+	background-color: red;
+	height: 100px;
+	/* margin: 10px 0; */
+	/* border: 2px solid rgb(33, 30, 30); */
+}
+.wrapper {
+	position: relative;
+	max-width: 70vw;
+	width: 70vw;
+	margin: 0 auto;
+}
+.wrapper1 {
+	position: relative;
+	max-width: 700px;
+	width: 700px;
+	margin: 0 auto;
+}
+.image {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 0 20px 0 0;
+	background-image: url(./download-removebg-preview.png);
+	background-size: cover;
+	background-color: black;
+}
+section {
+	/* margin-top: 20px; */
+	display: flex;
+	flex-direction: row;
+}
